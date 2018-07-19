@@ -1,18 +1,3 @@
-<?php
-
-
-$overcast = '#F1F1F2';
-$warmgray = '#BCBABE';
-$ice = '#A1D6E2';
-$glacier = '#1995AD';
-$slate = '#626D71';
-$ceramic = '#CDCDC0';
-$latte = '#DDBC95';
-$coffee = '#B38667';
-
-?>
-
-<style>
 .rhombic {
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
@@ -41,61 +26,61 @@ video.w-100 {
 }
 
 .bg-dark {
-    background: <?= $slate; ?>;
-    color: <?= $overcast; ?>;
+    background: #626D71;
+    color: #F1F1F2;
 }
 
 .bg-blue {
-    background: <?= $glacier; ?>;
-    color: <?= $overcast; ?>;
+    background: #1995AD;
+    color: #F1F1F2;
 }
 
 .bg-light {
-    background: <?= $overcast; ?>;
-    color: <?= $slate; ?> !important;
+    background: #F1F1F2;
+    color: #626D71 !important;
 }
 
 .bg-ice {
-    background: <?= $ice; ?>;
-    color: <?= $slate; ?>;
+    background: #A1D6E2;
+    color: #626D71;
 }
 
 .color-overcast {
-    color: <?= $overcast; ?>;
+    color: #F1F1F2;
 }
 
 .color-slate {
-    color: <?= $slate; ?>;
+    color: #626D71;
 }
 
 .btn-outline-slate {
-    color: <?= $slate; ?>;
+    color: #626D71;
     background-color: transparent;
     background-image: none;
-    border-color: <?= $slate; ?>;
+    border-color: #626D71;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-    color: <?= $overcast; ?>;
+    color: #F1F1F2;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: <?= $glacier; ?>;
+    color: #1995AD;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: <?= $overcast; ?>;
-    background: <?= $glacier; ?>;
+    color: #F1F1F2;
+    background: #1995AD;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: <?= $overcast; ?>;
-    background: <?= $glacier; ?>;
+    color: #F1F1F2;
+    background: #1995AD;
 }
 
 button.bg-blue:hover {
-    background: <?= $glacier; ?>;
-    color: <?= $ceramic; ?>;
+    background: #1995AD;
+    color: #CDCDC0;
 }
 
 section {
@@ -150,6 +135,3 @@ section {
 footer {
     margin-top: -60px;
 }
-
-
-</style>
